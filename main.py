@@ -18,14 +18,14 @@ def linelength(pos1, pos2): # planet_center, planet_surface
 
 
 def store_planet_info():
-    planet_store = {1 : {'planet_name': 'mercury', 'radius': 5, 'orbit_radius': 100, 'color': (150,75,0)},
-                    2 : {'planet_name': 'venus', 'radius': 10, 'orbit_radius': 150, 'color': (124,252,0)},
-                    3 : {'planet_name': 'earth', 'radius': 10, 'orbit_radius': 200, 'color': (0,0,255)},
-                    4 : {'planet_name': 'mars', 'radius': 7, 'orbit_radius': 250, 'color': (255,0,0)},
-                    5 : {'planet_name': 'jupiter', 'radius': 50, 'orbit_radius': 400, 'color': (255,165,0)},
-                    6 : {'planet_name': 'saturn', 'radius': 30, 'orbit_radius': 500, 'color': (255,255,0)},
-                    7 : {'planet_name': 'uranus', 'radius': 20, 'orbit_radius': 600, 'color': (0,191,255)},
-                    8 : {'planet_name': 'neptune', 'radius': 20, 'orbit_radius': 700, 'color': (221,160,221)}}
+    planet_store = {1 : {'planet_name': 'mercury', 'radius': 5, 'orbit_radius': 30, 'color': (150,75,0)},
+                    2 : {'planet_name': 'venus', 'radius': 10, 'orbit_radius': 50, 'color': (124,252,0)},
+                    3 : {'planet_name': 'earth', 'radius': 10, 'orbit_radius': 100, 'color': (0,0,255)},
+                    4 : {'planet_name': 'mars', 'radius': 7, 'orbit_radius': 150, 'color': (255,0,0)},
+                    5 : {'planet_name': 'jupiter', 'radius': 25, 'orbit_radius': 250, 'color': (255,165,0)},
+                    6 : {'planet_name': 'saturn', 'radius': 20, 'orbit_radius': 300, 'color': (255,255,0)},
+                    7 : {'planet_name': 'uranus', 'radius': 15, 'orbit_radius': 350, 'color': (0,191,255)},
+                    8 : {'planet_name': 'neptune', 'radius': 15, 'orbit_radius': 400, 'color': (221,160,221)}}
     return planet_store
 
 # mass of sun: 20 x 10 e29 kg
